@@ -1,0 +1,59 @@
+/* Color Palette */
+:root {
+    --rose-gold: #B76E79;
+    --cherry-red: #D2042D;
+    --phantom-green: #123524;
+    --white: #fff;
+    --dark-gray: #333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--phantom-green);
+    color: var(--white);
+}
+
+header {
+    background-color: var(--rose-gold);
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    color: var(--white);
+}
+
+nav {
+    text-align: center;
+    background-color: var(--cherry-red);
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--rose-gold);
+    text-align: center;
+    padding: 10px;
+}
